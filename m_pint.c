@@ -13,8 +13,8 @@ stack_t *head = *stack;
 
 if (var.stack_len == 0)
 {
-dprintf(STDOUT_FILENO,
-"L%u: can't pint, stack empty\n",
+vprintf(int STDOUT_FILENO,
+char * "L%u: can't pint, stack empty\n",
 line_number);
 exit(EXIT_FAILURE);
 }
